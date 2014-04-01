@@ -7,7 +7,7 @@ class SVDMatrix < Matrix
   # Create a new SVD Matrix with m rows, n columns
   def initialize(m, n)
     @rows = Array.new(m)
-    @column_size = n
+    @column_count = n
     m.times {|i| @rows[i] = Array.new(n)}
   end
   
